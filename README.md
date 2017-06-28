@@ -20,6 +20,7 @@ Resumé Page:
         Interests
     Navigation bar
     Home Button
+Possible fun page for experimenting with HTML/CSS/Bootstrap
 
 
         
