@@ -40,6 +40,7 @@
 
 .nav {
 	margin-top: 1%;
+	margin-bottom: 1%;
 	display: block;
 	font-size: 2em;
 	background-color:#000000 ;
@@ -78,33 +79,12 @@
   color: #000000;
 }
 
-
-/* Demo backgrounds and styling*/
-
-.colour-1 {
-  background: #483C46;
-  color: #fff;
+.resumé_color {
+	color: #FFFFFF;
+	background-color: #000000;
+	opacity: .75;
 }
 
-.colour-2 {
-  background: #3C6E71;
-}
-
-.colour-3 {
-  background: #70AE6E;
-}
-
-.colour-4 {
-  background: #82204A;
-}
-
-.colour-5 {
-  background: #558C8C;
-}
-
-.colour-6 {
-  background: #917C78;
-}
 
 body {
   padding: 20px 0;
@@ -130,4 +110,5 @@ h1 {
 body, html {
 	margin:0;
 	padding:0;
+	background-color: transparent;
 }
