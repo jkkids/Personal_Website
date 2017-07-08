@@ -1,3 +1,5 @@
+$ primary-color: #
+
 #Nameplate {
 	font-size: 32px;
 	font-weight: bold;
@@ -30,17 +32,24 @@
 	border: .25em solid;
 }
 
+#photo {
+	border-radius: 50%;
+	height: 40%;
+	width: height;
+	border-color: black;
+	border: .25em solid;
+	margin: 3%;
+}
+
 #basic_information {
 	top: 1%;
 	width: 100%;
 	display:block;
 	font-weight: 300;
-	font-family: 'Open Sans', sans-serif;
 }
 
 .nav {
 	margin-top: 1%;
-	margin-bottom: 1%;
 	display: block;
 	font-size: 2em;
 	background-color:#000000 ;
@@ -85,10 +94,14 @@
 	opacity: .75;
 }
 
+.header {
+	position:inline;
+	font-weight: 300;
+}
 
 body {
   padding: 20px 0;
-  font-family: Roboto, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   width: 100%;
 }
 
