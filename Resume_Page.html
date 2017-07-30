@@ -3,7 +3,7 @@
 <head>
   <title> Resumé</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="css_page.css">
+  <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
@@ -16,21 +16,31 @@
 
   <div class="container">
     <div class = "header">
-    <h1 style = "float: left;">Resumé</h1>
-    <h1 style = "float:right">Jacob Kirsch</h1>
+    <h1 style = "float: left;"><a href = "index.html">Resumé</a></h1>
+    <h1 style = "float:right">  Jacob Kirsch</h1>
     </div>
     </div>
-        <nav class="nav bg-faded" style = "margin-bottom: 1%">
-          <a class="flex-sm-fill text-sm-center nav-link active" href="index.html">/</a>
-          <a class="flex-sm-fill text-sm-center nav-link" href="Resume_Page.html">Résumé</a>
+        <ul class="nav bg-faded scroll" >
+          <li>
+            <a class="flex-sm-fill text-sm-center nav-link active" href="index.html">/</a>
+          </li>
+          <li>
+            <a class="flex-sm-fill text-sm-center nav-link" href="Resume_Page.html">Résumé</a>
+            </li>
+            <li>
           <a class="flex-sm-fill text-sm-center nav-link" href="Developer_Diary.html">Dev' Diary</a>
+          </li>
+          <li>
           <a class="flex-sm-fill text-sm-center nav-link" href="Contact.html">Contact</a>
+          </li>
+          <li>
           <a class="flex-sm-fill text-sm-center nav-link" href="#">Fun </a>
-        </nav>
+          </li>
+          </ul>
     </div>
       <div class="row row-flex">
-      <div class="col-md-6 col-sm-6 col-xs-12">
-        <div class="content resumé_color">
+      <div class="col-md-6 col-sm-12 col-xs-12">
+        <div class="content resume_color">
           <h2 style = "text-align:right" ><u>Education</u></h2>
           <div style = "text-align: left">
             <h4><i>University of Michigan</i></h4>
@@ -47,8 +57,8 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 col-sm-6 col-xs-12 card-block">
-        <div class="content resumé_color">
+      <div class="col-md-6 col-sm-12 col-xs-12 card-block">
+        <div class="content resume_color">
           <h2 style = "text-decoration: underline;">Experience</h2>
           <div style = "text-align: right">
             <h4><i><a href = "www.thecodingspace.com"><i>The Coding Space</i> </a> (June 2017 - August 2017)</i></h4>
@@ -66,8 +76,8 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 col-sm-6 col-xs-12">
-        <div class="content resumé_color">
+      <div class="col-md-6 col-sm-12 col-xs-12">
+        <div class="content resume_color">
           <h2 style = "text-decoration: underline; text-align:right"> Relevant Skills </h2>
           <p><div class = "glyphicon glyphicon-arrow-right " ></div> Languages: C++ / C, JavaScript, HTML, CSS, Python, Scratch, Bootstrap</p>
           <p><div class = "glyphicon glyphicon-arrow-right " ></div> Operating Systems: Windows, MacOS, Linux</p>
@@ -75,7 +85,7 @@
         </div>
       </div>
       <div class="col-md-6 col-sm-6 col-xs-12">
-        <div class="content resumé_color">
+        <div class="content resume_color">
           <h2 style = "text-decoration: underline;">Awards and Achievements</h2>
           <div style = "text-align: right">
             <p> University of Michigan LSA Honors (Fall 2016) <span class = "glyphicon glyphicon-arrow-left " ></span> </p>
@@ -86,7 +96,7 @@
         </div>
       </div>
       <div class="col-md-12 col-sm-12 col-xs-12">
-        <div class="content resumé_color">
+        <div class="content resume_color">
           <h2 style = "text-decoration: underline; text-align: right">Leadership Positions and Professional Organizations</h2>
           <h4><i>Kappa Theta Pi</i></h4>
           <p><div class = "glyphicon glyphicon-arrow-right " ></div> Member of Michigan's only Professional Technology Fraternity</p>

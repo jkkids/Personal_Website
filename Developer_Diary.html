@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css_page.css">
+  <link rel="stylesheet" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -14,21 +14,27 @@
 <body style = "background-color: white; font-family: 'Open Sans', sans-serif;">
     <div class = "container" >
           <div class = "header">
-          <h1 style = "float: left"> Developer Diary </h1>
+          <h1 style = "float: left"><a href = "index.html"> Developer Diary</a> </h1>
           <h1 style = "float: right"> Jacob Kirsch </h1>
           </div>
       </div>
-      <nav class="nav bg-faded" >
-          <a class="flex-sm-fill text-sm-center nav-link active" href="index.html">/</a>
-          <a class="flex-sm-fill text-sm-center nav-link" href="Resume_Page.html">Résumé</a>
+      <ul class="nav bg-faded scroll" >
+          <li>
+            <a class="flex-sm-fill text-sm-center nav-link active" href="index.html">/</a>
+          </li>
+          <li>
+            <a class="flex-sm-fill text-sm-center nav-link" href="Resume_Page.html">Résumé</a>
+            </li>
+            <li>
           <a class="flex-sm-fill text-sm-center nav-link" href="Developer_Diary.html">Dev' Diary</a>
+          </li>
+          <li>
           <a class="flex-sm-fill text-sm-center nav-link" href="Contact.html">Contact</a>
+          </li>
+          <li>
           <a class="flex-sm-fill text-sm-center nav-link" href="#">Fun </a>
-          </nav>
-
-
-
-
+          </li>
+          </ul>
     <div class="container">
 <div class="panel-group" id="accordion" >
         <div class="panel panel-default">
@@ -100,7 +106,20 @@
                 </div>
             </div>
         </div>
-    
+        
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">July 27, 2017 - So SASSY</a>
+                </h4>
+            </div>
+            <div id="collapseSeven" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p>I finally got around to convering my css page to scss. I probably could have just stayed using css, but scss makes so many things easier. Now that I have that done I am going to start working on other things for the site! One of the first things I am going to change is the color scheme. Although the black and white looks classy (in my opinion), it doesn't add anything personal to the site. I am planning on using a light brown and purple as accent colors, purely because they are my favorite colors. I will keep the majority of my site as black and white though. Happy I converted things to SASS though. </p>
+                </div>
+            </div>
+        </div>
 
 
 
