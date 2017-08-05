@@ -82,10 +82,10 @@ ul.nav {
   ul.nav li {
     display: inline-block;
     float: none;
+    height: 100%;
     min-width: 0%; }
     ul.nav li a:hover {
-      background-color: #4F1C74;
-      color: #FFFFFF; }
+      color: #9370DB; }
 
 /* vertical spacing between columns */
 [class*="col-"] {
@@ -117,6 +117,8 @@ body {
 h1 {
   font-weight: 300;
   margin-bottom: 40px; }
+  h1 a {
+    color: #9370DB; }
 
 .border {
   border-style: solid;

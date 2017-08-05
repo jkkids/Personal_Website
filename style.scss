@@ -103,11 +103,10 @@ ul.nav {
     li {
     	display: inline-block;
     	float: none;
+    	height: 100%;
     	min-width: 0%;
-
     	a:hover {
-    	background-color:  #4F1C74;
-    	color: $primary_color;
+    	color: $accent_color_purple;
     	}
     }
 }
@@ -149,6 +148,9 @@ body {
 h1 {
   font-weight: 300;
   margin-bottom: 40px;
+  	a{
+  		color: $accent_color_purple;
+ 	 }
 }
 
 .border {
