@@ -114,6 +114,16 @@ body {
   margin-top: 0px;
   font-weight: 300; }
 
+.project_photos {
+  vertical-align: left;
+  height: 15%;
+  width: 15%;
+  border-color: black;
+  border: .05em solid;
+  color: black;
+  float: left;
+  margin-left: 30px; }
+
 h1 {
   font-weight: 300;
   margin-bottom: 40px; }
@@ -129,6 +139,9 @@ body, html {
   padding: 0;
   background-color: transparent; }
 
+.project_names {
+  color: #9370DB; }
+
 .card {
   position: relative;
   display: -webkit-box;
@@ -142,7 +155,10 @@ body, html {
   flex-direction: column;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem; }
+  border-radius: 0.25rem;
+  margin: 0 auto;
+  max-width: 50%;
+  vertical-align: middle; }
 
 .card-block {
   -webkit-box-flex: 1;
