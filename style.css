@@ -6,6 +6,12 @@
   font-size: 32px;
   font-weight: bold; }
 
+#jacobtext {
+  font-size: 64px;
+  font-weight: bold;
+  text-align: center;
+  color: #9370DB; }
+
 #school {
   font-weight: normal; }
 
